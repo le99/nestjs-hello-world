@@ -1,7 +1,6 @@
 ## References
 https://docs.nestjs.com/
-
-
+https://stackoverflow.com/questions/61892684/nest-js-gracefully-shutdown
 
 ## Description
 
