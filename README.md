@@ -2,6 +2,22 @@
 https://docs.nestjs.com/
 https://stackoverflow.com/questions/61892684/nest-js-gracefully-shutdown
 
+## Run docker
+```bash
+./dockerScripts/dockerBuild.sh
+./dockerScripts/runOnce.sh
+```
+## Run minikube
+```bash
+./dockerScripts/minikube-build.sh
+cd ./k8s/
+  ./up.sh
+  #minikube ip:
+  curl http://192.168.99.100:30009/
+  ./down.sh
+cd -
+```
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
